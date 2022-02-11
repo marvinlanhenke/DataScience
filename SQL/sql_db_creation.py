@@ -94,7 +94,7 @@ class SQLData:
 
 
 if __name__ == '__main__':
-    sql = SQLData('localhost','sql_dev','root','rhqq3xyz')
+    sql = SQLData('localhost','yourdatabase','root','yourpassword')
     sql.connect()
     sql.drop_all_tables()
     sql.create_tables()
